@@ -4,8 +4,7 @@ Date: 2020-10-16
 Title: Tools to Work with RODBC Databases
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="arni.magnusson@fao.org"))
 Imports: RODBC
-Description: Simple and useful tools that extend the functionality of the RODBC
-  package.
+Description: Simple tools that extend the functionality of the RODBC package.
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.1.0
