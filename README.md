@@ -7,10 +7,12 @@ Simple and useful tools that extend the functionality of the
 Installation
 ------------
 
-RODBCtools can be installed from CRAN using the `install.packages` command:
+RODBCtools can be installed from GitHub using the `install_github` command from
+the `remotes` package:
 
 ```R
-install.packages("RODBCtools")
+library(remotes)
+install_github("gfcm/RODBCtools")
 ```
 
 Usage
@@ -31,10 +33,3 @@ RODBCtools is developed openly on
 
 Feel free to open an [issue](https://github.com/gfcm/RODBCtools/issues) there if
 you encounter problems or have suggestions for future versions.
-
-The current development version can be installed using:
-
-```R
-library(remotes)
-install_github("gfcm/RODBCtools")
-```
