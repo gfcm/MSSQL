@@ -10,6 +10,7 @@
 #' @details
 #' \emph{Table:}
 #' \tabular{ll}{
+#'   \code{\link{tableNcol}} \tab Number of columns\cr
 #'   \code{\link{tableNrow}} \tab Number of rows
 #' }
 #'
