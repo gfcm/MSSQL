@@ -24,7 +24,8 @@ tableNrow(con, "sysusers")
 
 }
 \seealso{
-\code{\link{tableNcol}} returns the number of columns in a database table.
+\code{\link{tableDim}} and \code{\link{tableNcol}} also return the dimensions
+of a database table.
 
 \code{\link{sqlQuery}} is the underlying function used to examine the table
 rows.

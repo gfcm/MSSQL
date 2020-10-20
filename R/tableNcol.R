@@ -8,7 +8,8 @@
 #' @return Number of columns as integer.
 #'
 #' @seealso
-#' \code{\link{tableNrow}} returns the number of rows in a database table.
+#' \code{\link{tableDim}} and \code{\link{tableNrow}} also return the dimensions
+#' of a database table.
 #'
 #' \code{\link{sqlColumns}} is the underlying function used to examine the table
 #' columns.
