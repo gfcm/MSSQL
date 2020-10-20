@@ -7,5 +7,5 @@ Imports: RODBC
 Description: Simple tools that extend the functionality of the RODBC package.
 License: GPL-3
 Encoding: UTF-8
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 Roxygen: list(old_usage=TRUE)
