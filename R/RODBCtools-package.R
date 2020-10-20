@@ -1,0 +1,18 @@
+#' @docType package
+#'
+#' @name RODBCtools-package
+#'
+#' @title Tools to Work with RODBC Databases
+#'
+#' @description
+#' Simple tools that extend the functionality of the RODBC package.
+#'
+#' @details
+#' \emph{Table:}
+#' \tabular{ll}{
+#'   \code{\link{tableNrow}} \tab Number of rows
+#' }
+#'
+#' @author Arni Magnusson.
+
+NA

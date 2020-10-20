@@ -13,6 +13,8 @@
 #' \code{\link{nrow}} is the base function to return the number of rows for
 #' objects inside the R workspace.
 #'
+#' \code{\link{RODBCtools-package}} gives an overview of the package.
+#'
 #' @examples
 #' \dontrun{
 #' tableNrow(con, "sysusers")
