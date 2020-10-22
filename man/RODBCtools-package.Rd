@@ -3,6 +3,7 @@
 \docType{package}
 \name{RODBCtools-package}
 \alias{RODBCtools-package}
+\alias{RODBCtools}
 \title{Tools to Work with RODBC Databases}
 \description{
 Simple tools that extend the functionality of the RODBC package.

@@ -2,6 +2,8 @@
 #'
 #' @name RODBCtools-package
 #'
+#' @aliases RODBCtools
+#'
 #' @title Tools to Work with RODBC Databases
 #'
 #' @description
