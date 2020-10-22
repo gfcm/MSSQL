@@ -30,6 +30,10 @@
 
 tableNrow <- function(channel, sqtable)
 {
-  x <- sqlQuery(channel, paste0('SELECT COUNT(*) FROM "', sqtable, '"'))
-  as.integer(unname(unlist(x)))
+  x <- sqlQuery(channel, paste0('SELECT COUNT(*) FROM "', sqtable, '"'),
+                errors=FALSE)
+  x <- as.integer(unname(unlist(x)))
+  if(x < 0)
+    x <- NA_integer_
+  x
 }
