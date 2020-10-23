@@ -12,6 +12,11 @@
 #' \item{create_date}{date created.}
 #' \item{modify_date}{date last modified.}
 #'
+#' @note
+#' The date and and time information is queried from \verb{sys.tables} and
+#' \verb{sys.views}. If these do not exist, the function will return a harmless
+#' ODBC error.
+#'
 #' @seealso
 #' \code{\link{Sys.time}} is the base function to show the current date and
 #' time.

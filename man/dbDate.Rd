@@ -20,6 +20,11 @@ Data frame containing four columns:
 Get date and time information about tables and views: when they were created
 and when they were last modified.
 }
+\note{
+The date and and time information is queried from \verb{sys.tables} and
+\verb{sys.views}. If these do not exist, the function will return a harmless
+ODBC error.
+}
 \examples{
 \dontrun{
 con <- odbcConnect("myDatabase")
