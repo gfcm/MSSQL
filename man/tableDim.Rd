@@ -19,6 +19,8 @@ Return the number of rows and columns in a database table.
 }
 \examples{
 \dontrun{
+con <- odbcConnect("myDatabase")
+
 tableDim(con, "sysusers")
 }
 

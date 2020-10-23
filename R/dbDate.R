@@ -20,6 +20,8 @@
 #'
 #' @examples
 #' \dontrun{
+#' con <- odbcConnect("myDatabase")
+#'
 #' dbDate(con)
 #' }
 #'

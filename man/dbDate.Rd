@@ -22,6 +22,8 @@ and when they were last modified.
 }
 \examples{
 \dontrun{
+con <- odbcConnect("myDatabase")
+
 dbDate(con)
 }
 

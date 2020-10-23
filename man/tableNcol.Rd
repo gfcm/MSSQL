@@ -19,6 +19,8 @@ Return the number of columns in a database table.
 }
 \examples{
 \dontrun{
+con <- odbcConnect("myDatabase")
+
 tableNcol(con, "sysusers")
 }
 

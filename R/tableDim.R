@@ -18,6 +18,8 @@
 #'
 #' @examples
 #' \dontrun{
+#' con <- odbcConnect("myDatabase")
+#'
 #' tableDim(con, "sysusers")
 #' }
 #'

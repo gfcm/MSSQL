@@ -21,6 +21,8 @@
 #'
 #' @examples
 #' \dontrun{
+#' con <- odbcConnect("myDatabase")
+#'
 #' tableNcol(con, "sysusers")
 #' }
 #'

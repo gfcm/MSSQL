@@ -19,6 +19,8 @@ Return the number of rows in a database table.
 }
 \examples{
 \dontrun{
+con <- odbcConnect("myDatabase")
+
 tableNrow(con, "sysusers")
 }
 
