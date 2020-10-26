@@ -1,8 +1,8 @@
 #' @docType package
 #'
-#' @name RODBCtools-package
+#' @name dbTools-package
 #'
-#' @aliases RODBCtools
+#' @aliases dbTools
 #'
 #' @title Tools to Work with RODBC Databases
 #'

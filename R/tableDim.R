@@ -14,7 +14,7 @@
 #' \code{\link{dim}} is the base function to return the dimensions for objects
 #' inside the R workspace.
 #'
-#' \code{\link{RODBCtools-package}} gives an overview of the package.
+#' \code{\link{dbTools-package}} gives an overview of the package.
 #'
 #' @examples
 #' \dontrun{

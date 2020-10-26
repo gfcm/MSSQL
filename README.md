@@ -1,5 +1,5 @@
-RODBCtools
-==========
+dbTools
+=======
 
 Simple tools that extend the functionality of the
 [RODBC](https://cran.r-project.org/package=RODBC) package.
@@ -7,12 +7,12 @@ Simple tools that extend the functionality of the
 Installation
 ------------
 
-RODBCtools can be installed from GitHub using the `install_github` command from
-the `remotes` package:
+dbTools can be installed from GitHub using the `install_github` command from the
+`remotes` package:
 
 ```R
 library(remotes)
-install_github("gfcm/RODBCtools")
+install_github("gfcm/dbTools")
 ```
 
 Usage
@@ -21,15 +21,14 @@ Usage
 For a summary of the package:
 
 ```R
-library(RODBCtools)
-?RODBCtools
+library(dbTools)
+?dbTools
 ```
 
 Development
 -----------
 
-RODBCtools is developed openly on
-[GitHub](https://github.com/gfcm/RODBCtools).
+dbTools is developed openly on [GitHub](https://github.com/gfcm/dbTools).
 
-Feel free to open an [issue](https://github.com/gfcm/RODBCtools/issues) there if
+Feel free to open an [issue](https://github.com/gfcm/dbTools/issues) there if
 you encounter problems or have suggestions for future versions.

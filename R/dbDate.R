@@ -21,7 +21,7 @@
 #' \code{\link{Sys.time}} is the base function to show the current date and
 #' time.
 #'
-#' \code{\link{RODBCtools-package}} gives an overview of the package.
+#' \code{\link{dbTools-package}} gives an overview of the package.
 #'
 #' @examples
 #' \dontrun{
