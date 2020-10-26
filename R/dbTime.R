@@ -7,19 +7,17 @@
 #'
 #' @return
 #' Data frame containing four columns:
-#' \item{name}{name of table/view.}
-#' \item{type}{type of table/view.}
-#' \item{create_date}{date created.}
-#' \item{modify_date}{date last modified.}
-#'
-#' @note
-#' The date and and time information is queried from \verb{sys.tables} and
-#' \verb{sys.views}. If these do not exist, the function will return a harmless
-#' ODBC error.
+#' \item{Schema}{database schema.}
+#' \item{Name}{name of table/view.}
+#' \item{Type}{type of table/view.}
+#' \item{Created}{time created.}
+#' \item{Modified}{time last modified.}
 #'
 #' @seealso
-#' \code{\link{Sys.time}} is the base function to show the current date and
-#' time.
+#' \code{\link{sqlQuery}} is the underlying function used to query
+#' \verb{sys.tables} and \verb{sys.views}.
+#'
+#' \code{\link{Sys.time}} is the base function to show the current time.
 #'
 #' \code{\link{dbTools-package}} gives an overview of the package.
 #'
@@ -36,11 +34,14 @@
 
 dbTime <- function(channel)
 {
-  tables <- sqlQuery(channel,
-                     "SELECT name,type,create_date,modify_date FROM sys.tables
-                      UNION
-                      SELECT name,type,create_date,modify_date FROM sys.views",
-                     stringsAsFactors=FALSE)
-  tables$type <- trimws(tables$type)
-  tables
+  x <- sqlQuery(channel,
+                "SELECT name,type,create_date,modify_date FROM sys.tables
+                 UNION
+                 SELECT name,type,create_date,modify_date FROM sys.views",
+                stringsAsFactors=FALSE)
+  type <- ifelse(trimws(x$type)=="V", "View", "Table")
+
+  out <- data.frame(Schema="dbo", Name=x$name, Type=type, Created=x$create_date,
+                    Modified=x$modify_date)
+  out
 }
