@@ -1,7 +1,7 @@
-#' Date Information about Tables and Views
+#' Time Information about Tables and Views
 #'
-#' Get date and time information about tables and views: when they were created
-#' and when they were last modified.
+#' Get time information about tables and views: when they were created and when
+#' they were last modified.
 #'
 #' @param channel an RODBC connection.
 #'
@@ -27,14 +27,14 @@
 #' \dontrun{
 #' con <- odbcConnect("myDatabase")
 #'
-#' dbDate(con)
+#' dbTime(con)
 #' }
 #'
 #' @importFrom RODBC sqlQuery
 #'
 #' @export
 
-dbDate <- function(channel)
+dbTime <- function(channel)
 {
   tables <- sqlQuery(channel,
                      "SELECT name,type,create_date,modify_date FROM sys.tables

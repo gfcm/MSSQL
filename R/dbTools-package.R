@@ -12,7 +12,7 @@
 #' @details
 #' \emph{Database:}
 #' \tabular{ll}{
-#'   \code{\link{dbDate}}  \tab Date information
+#'   \code{\link{dbTime}}  \tab Time information
 #' }
 #' \emph{Table:}
 #' \tabular{ll}{
