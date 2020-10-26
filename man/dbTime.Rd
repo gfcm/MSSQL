@@ -11,8 +11,8 @@ dbTime(channel)
 }
 \value{
 Data frame containing four columns:
-\item{Schema}{database schema.}
 \item{Name}{name of table/view.}
+\item{Schema}{database schema.}
 \item{Type}{type of table/view.}
 \item{Created}{time created.}
 \item{Modified}{time last modified.}

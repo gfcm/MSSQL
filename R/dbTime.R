@@ -7,8 +7,8 @@
 #'
 #' @return
 #' Data frame containing four columns:
-#' \item{Schema}{database schema.}
 #' \item{Name}{name of table/view.}
+#' \item{Schema}{database schema.}
 #' \item{Type}{type of table/view.}
 #' \item{Created}{time created.}
 #' \item{Modified}{time last modified.}
@@ -40,7 +40,7 @@ dbTime <- function(channel)
   x <- sqlQuery(channel, query, stringsAsFactors=FALSE)
   type <- ifelse(trimws(x$type)=="V", "View", "Table")
 
-  out <- data.frame(Schema="dbo", Name=x$name, Type=type, Created=x$create_date,
+  out <- data.frame(Name=x$name, Schema="dbo", Type=type, Created=x$create_date,
                     Modified=x$modify_date)
   out
 }
