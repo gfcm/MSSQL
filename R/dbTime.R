@@ -34,11 +34,10 @@
 
 dbTime <- function(channel)
 {
-  x <- sqlQuery(channel,
-                "SELECT name,type,create_date,modify_date FROM sys.tables
-                 UNION
-                 SELECT name,type,create_date,modify_date FROM sys.views",
-                stringsAsFactors=FALSE)
+  query <- paste("SELECT name,type,create_date,modify_date FROM sys.tables",
+                 "UNION",
+                 "SELECT name,type,create_date,modify_date FROM sys.views")
+  x <- sqlQuery(channel, query, stringsAsFactors=FALSE)
   type <- ifelse(trimws(x$type)=="V", "View", "Table")
 
   out <- data.frame(Schema="dbo", Name=x$name, Type=type, Created=x$create_date,
