@@ -1,7 +1,6 @@
 #' Overview of Tables and Views
 #'
-#' Get dimensions and first few column names of all tables and views in a
-#' database.
+#' Get dimensions and first few column names of tables and views in a database.
 #'
 #' @param channel an RODBC connection.
 #' @param schema database schema.
@@ -32,6 +31,7 @@
 #' tables/views, \code{\link{tableDim}} is used to count rows and columns, and
 #' \code{\link{sqlColumns}} is used to peek at the first column names.
 #'
+#' \code{\link{dbStorage}} shows the storage size of tables and
 #' \code{\link{dbTime}} shows the time when tables/views were created and last
 #' modified.
 #'

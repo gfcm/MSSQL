@@ -1,4 +1,4 @@
-#' Time Information about Tables and Views
+#' Time Created and Modified
 #'
 #' Get time information about tables and views: when they were created and when
 #' they were last modified.
@@ -18,7 +18,7 @@
 #' \verb{sys.tables} and \verb{sys.views}.
 #'
 #' \code{\link{dbOverview}} shows the dimensions of tables/views and the first
-#' column names.
+#' column names, and \code{\link{dbStorage}} shows the storage size of tables.
 #'
 #' \code{\link{Sys.time}} is the base function to show the current time.
 #'
