@@ -6,7 +6,7 @@
 #' @param channel an RODBC connection.
 #'
 #' @return
-#' Data frame containing four columns:
+#' Data frame containing five columns:
 #' \item{Name}{name of table/view.}
 #' \item{Schema}{database schema.}
 #' \item{Type}{type of table/view.}
@@ -16,6 +16,9 @@
 #' @seealso
 #' \code{\link{sqlQuery}} is the underlying function used to query
 #' \verb{sys.tables} and \verb{sys.views}.
+#'
+#' \code{\link{dbOverview}} shows the dimensions of tables/views and the first
+#' column names.
 #'
 #' \code{\link{Sys.time}} is the base function to show the current time.
 #'

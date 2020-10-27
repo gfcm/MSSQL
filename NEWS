@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
 dbTools 1.0-0 (2020-10-16)
 --------------------------------------------------------------------------------
-* Initial release, providing the functions dbTime(), tableDim(), tableNcol(),
-  and tableNrow().
+* Initial release, providing the functions dbOverview(), dbTime(), tableDim(),
+  tableNcol(), and tableNrow().

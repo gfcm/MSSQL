@@ -11,7 +11,8 @@ Simple tools that extend the functionality of the RODBC package.
 \details{
 \emph{Database:}
 \tabular{ll}{
-  \code{\link{dbTime}}  \tab Time information
+  \code{\link{dbOverview}} \tab Dimensions and column names\cr
+  \code{\link{dbTime}}     \tab Time information
 }
 \emph{Table:}
 \tabular{ll}{
