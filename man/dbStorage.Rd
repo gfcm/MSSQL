@@ -31,6 +31,9 @@ In addition, any of the following columns, depending on which of
 \description{
 Get storage size of tables in a database.
 }
+\note{
+Based on \url{https://stackoverflow.com/questions/7892334}.
+}
 \examples{
 \dontrun{
 con <- odbcConnect("myDatabase")
