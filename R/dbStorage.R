@@ -77,7 +77,7 @@ dbStorage <- function(channel, total=TRUE, used=FALSE, unused=FALSE)
     "AND i.object_id > 255",
     "GROUP BY",
     "t.name, s.name, p.rows, t.max_column_id_used")
-  x <- sqlQuery(channel, query)
+  x <- sqlQuery(channel, query, stringsAsFactors=FALSE)
 
   ## 2  Prepare and return data frame
   out <- data.frame(Name=x$TableName, Schema=x$SchemaName, Type="Table",
