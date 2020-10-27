@@ -32,24 +32,10 @@
 
 tableNrow <- function(channel, sqtable)
 {
-  ## 1  Quote table name if not already quoted
-  if(!grepl("\"", sqtable))
-  {
-    s <- unlist(strsplit(sqtable, "\\."))  # split schema from table name
-    sqtable <- if(length(s) == 1)
-                 paste0("\"", s, "\"")            # "\"table name\""
-               else
-                 paste0(s[1], ".\"", s[2], "\"")  # "schema.\"table name\""
-  }
-
-  ## 2  Query number of rows
-  query <- paste("SELECT COUNT(*) FROM", sqtable)
+  query <- paste("SELECT COUNT(*) FROM", tableQuote(sqtable))
   x <- sqlQuery(channel, query, errors=FALSE)
   x <- as.integer(unname(unlist(x)))
-
-  ## 3  Convert error code to NA
   if(x < 0)
     x <- NA_integer_
-
   x
 }
