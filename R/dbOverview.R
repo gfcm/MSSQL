@@ -52,7 +52,7 @@
 #'
 #' @export
 
-dbOverview <- function(channel, schema="dbo", dim=TRUE, peek=4, ...)
+dbOverview <- function(channel, schema="dbo", dim=TRUE, peek=2, ...)
 {
   peekCols <- function(tab, peek)
     paste(head(sqlColumns(channel, tab)[[4]], peek), collapse=" | ")

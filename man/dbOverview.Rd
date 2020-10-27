@@ -4,7 +4,7 @@
 \alias{dbOverview}
 \title{Overview of Tables and Views}
 \usage{
-dbOverview(channel, schema = "dbo", dim = TRUE, peek = 4, ...)
+dbOverview(channel, schema = "dbo", dim = TRUE, peek = 2, ...)
 }
 \arguments{
 \item{channel}{an RODBC connection.}
