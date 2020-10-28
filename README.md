@@ -1,8 +1,10 @@
 MSSQL
 =======
 
-Simple tools that extend the functionality of the
-[RODBC](https://cran.r-project.org/package=RODBC) package.
+MSSQL provides tools that extend the functionality of the
+[RODBC](https://cran.r-project.org/package=RODBC) package to work with Microsoft
+SQL Server databases. Makes it easier to browse the database and examine
+individual tables and views.
 
 Installation
 ------------

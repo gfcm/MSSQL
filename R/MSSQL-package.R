@@ -4,10 +4,12 @@
 #'
 #' @aliases MSSQL
 #'
-#' @title Tools to Work with RODBC Databases
+#' @title Tools to Work with Microsoft SQL Server Databases via RODBC
 #'
 #' @description
-#' Simple tools that extend the functionality of the RODBC package.
+#' Tools that extend the functionality of the RODBC package to work with
+#' Microsoft SQL Server databases. Makes it easier to browse the database and
+#' examine individual tables and views.
 #'
 #' @details
 #' \emph{Browse database:}
