@@ -18,11 +18,12 @@
 #' }
 #' \emph{Table:}
 #' \tabular{ll}{
-#'   \code{\link{tableDim}}   \tab Dimensions\cr
-#'   \code{\link{tableHead}}  \tab First rows\cr
-#'   \code{\link{tableNcol}}  \tab Number of columns\cr
-#'   \code{\link{tableNrow}}  \tab Number of rows\cr
-#'   \code{\link{tableQuote}} \tab Quote name
+#'   \code{\link{tableDim}}      \tab Dimensions\cr
+#'   \code{\link{tableHead}}     \tab First rows\cr
+#'   \code{\link{tableNcol}}     \tab Number of columns\cr
+#'   \code{\link{tableNrow}}     \tab Number of rows\cr
+#'   \code{\link{tableOverview}} \tab Data types and number of rows\cr
+#'   \code{\link{tableQuote}}    \tab Quote name
 #' }
 #'
 #' @author Arni Magnusson.

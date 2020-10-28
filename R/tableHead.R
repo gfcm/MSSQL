@@ -17,11 +17,11 @@
 #' \code{\link{sqlQuery}} with \code{\link{tableQuote}} are the underlying
 #' functions used to query the table/view.
 #'
-#' \code{\link{head}} is the base function to return the first parts of an R
-#' object.
+#' \code{\link{head}} is the base function to return the first parts of an
+#' object inside the R workspace.
 #'
-#' \code{\link{tableOverview}} shows the column data types and number of rows of
-#' a table/view.
+#' \code{\link{tableOverview}} shows the data types and number of rows of a
+#' database table.
 #'
 #' \code{\link{dbTools-package}} gives an overview of the package.
 #'
