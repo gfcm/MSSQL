@@ -18,12 +18,10 @@
 #' \code{\link{MSSQL-package}} gives an overview of the package.
 #'
 #' @examples
-#' \dontrun{
 #' tableQuote("table")
 #' tableQuote("table name")
 #' tableQuote("schema.table")
 #' tableQuote("schema.table name")
-#' }
 #'
 #' @export
 

@@ -20,12 +20,10 @@ The \code{sqlQuery} function requires special quotes if the table name has
 spaces. Furthermore, the schema name must not be inside the special quotes.
 }
 \examples{
-\dontrun{
 tableQuote("table")
 tableQuote("table name")
 tableQuote("schema.table")
 tableQuote("schema.table name")
-}
 
 }
 \seealso{
