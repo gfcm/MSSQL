@@ -20,8 +20,8 @@
 #' \code{\link{head}} is the base function to return the first parts of an
 #' object inside the R workspace.
 #'
-#' \code{\link{tableOverview}} shows the data types and number of rows of a
-#' database table.
+#' \code{\link{tableOverview}} shows the data types and dimensions of a database
+#' table.
 #'
 #' \code{\link{dbTools-package}} gives an overview of the package.
 #'

@@ -2,7 +2,7 @@
 % Please edit documentation in R/tableOverview.R
 \name{tableOverview}
 \alias{tableOverview}
-\title{Data Types and Number of Rows}
+\title{Data Types and Dimensions}
 \usage{
 tableOverview(channel, sqtable)
 }
@@ -16,7 +16,7 @@ List containing \code{Cols} and \code{Rows}, describing column data types and
 the number of rows.
 }
 \description{
-Show column data types and number of rows of a database table.
+Show data types and dimensions of a database table.
 }
 \examples{
 \dontrun{

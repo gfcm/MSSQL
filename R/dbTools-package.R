@@ -10,20 +10,23 @@
 #' Simple tools that extend the functionality of the RODBC package.
 #'
 #' @details
-#' \emph{Database:}
+#' \emph{Browse database:}
 #' \tabular{ll}{
 #'   \code{\link{dbOverview}} \tab Dimensions and column names\cr
 #'   \code{\link{dbStorage}}  \tab Storage size\cr
 #'   \code{\link{dbTime}}     \tab Time created and modified
 #' }
-#' \emph{Table:}
+#' \emph{Browse table:}
 #' \tabular{ll}{
 #'   \code{\link{tableDim}}      \tab Dimensions\cr
 #'   \code{\link{tableHead}}     \tab First rows\cr
 #'   \code{\link{tableNcol}}     \tab Number of columns\cr
 #'   \code{\link{tableNrow}}     \tab Number of rows\cr
-#'   \code{\link{tableOverview}} \tab Data types and number of rows\cr
-#'   \code{\link{tableQuote}}    \tab Quote name
+#'   \code{\link{tableOverview}} \tab Data types and dimensions
+#' }
+#' \emph{Helper functions:}
+#' \tabular{ll}{
+#'   \code{\link{tableQuote}} \tab Quote table name
 #' }
 #'
 #' @author Arni Magnusson.

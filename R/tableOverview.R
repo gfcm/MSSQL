@@ -1,6 +1,6 @@
-#' Data Types and Number of Rows
+#' Data Types and Dimensions
 #'
-#' Show column data types and number of rows of a database table.
+#' Show data types and dimensions of a database table.
 #'
 #' @param channel an RODBC connection.
 #' @param sqtable a database table or view.
