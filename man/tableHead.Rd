@@ -43,5 +43,5 @@ object inside the R workspace.
 \code{\link{tableOverview}} shows the data types and dimensions of a database
 table.
 
-\code{\link{dbTools-package}} gives an overview of the package.
+\code{\link{MSSQL-package}} gives an overview of the package.
 }

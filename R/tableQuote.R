@@ -15,7 +15,7 @@
 #'
 #' \code{\link{Quotes}} in base R.
 #'
-#' \code{\link{dbTools-package}} gives an overview of the package.
+#' \code{\link{MSSQL-package}} gives an overview of the package.
 #'
 #' @examples
 #' \dontrun{

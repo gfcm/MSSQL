@@ -37,5 +37,5 @@ inside the R workspace.
 
 \code{\link{tableHead}} returns the first rows of a database table.
 
-\code{\link{dbTools-package}} gives an overview of the package.
+\code{\link{MSSQL-package}} gives an overview of the package.
 }

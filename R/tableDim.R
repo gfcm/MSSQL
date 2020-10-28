@@ -14,7 +14,7 @@
 #' \code{\link{dim}} is the base function to return the dimensions for data
 #' frames inside the R workspace.
 #'
-#' \code{\link{dbTools-package}} gives an overview of the package.
+#' \code{\link{MSSQL-package}} gives an overview of the package.
 #'
 #' @examples
 #' \dontrun{

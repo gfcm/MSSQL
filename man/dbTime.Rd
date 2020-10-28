@@ -38,5 +38,5 @@ column names, and \code{\link{dbStorage}} shows the storage size of tables.
 
 \code{\link{Sys.time}} is the base function to show the current time.
 
-\code{\link{dbTools-package}} gives an overview of the package.
+\code{\link{MSSQL-package}} gives an overview of the package.
 }

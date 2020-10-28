@@ -56,5 +56,5 @@ created and last modified.
 \code{\link{object.size}} is the base function to return the storage size of
 objects inside the R workspace.
 
-\code{\link{dbTools-package}} gives an overview of the package.
+\code{\link{MSSQL-package}} gives an overview of the package.
 }

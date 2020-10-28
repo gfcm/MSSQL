@@ -35,7 +35,7 @@
 #' \code{\link{dbTime}} shows the time when tables/views were created and last
 #' modified.
 #'
-#' \code{\link{dbTools-package}} gives an overview of the package.
+#' \code{\link{MSSQL-package}} gives an overview of the package.
 #'
 #' @examples
 #' \dontrun{

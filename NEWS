@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-dbTools 1.0-0 (2020-10-16)
+MSSQL 1.0-0 (2020-10-16)
 --------------------------------------------------------------------------------
 * Initial release, providing the functions dbOverview(), dbStorage(), dbTime(),
   tableDim(), tableHead(), tableNcol(), tableNrow(), tableOverview(), and

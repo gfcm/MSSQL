@@ -1,8 +1,8 @@
 #' @docType package
 #'
-#' @name dbTools-package
+#' @name MSSQL-package
 #'
-#' @aliases dbTools
+#' @aliases MSSQL
 #'
 #' @title Tools to Work with RODBC Databases
 #'

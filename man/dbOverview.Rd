@@ -57,5 +57,5 @@ tables/views, \code{\link{tableDim}} is used to count rows and columns, and
 \code{\link{dbTime}} shows the time when tables/views were created and last
 modified.
 
-\code{\link{dbTools-package}} gives an overview of the package.
+\code{\link{MSSQL-package}} gives an overview of the package.
 }
