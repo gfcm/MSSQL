@@ -14,8 +14,8 @@
 #' \code{\link{sqlQuery}} is the underlying function used to examine the table
 #' rows.
 #'
-#' \code{\link{nrow}} is the base function to return the number of rows for
-#' objects inside the R workspace.
+#' \code{\link{nrow}} is the base function to return the number of rows for data
+#' frames inside the R workspace.
 #'
 #' \code{\link{dbTools-package}} gives an overview of the package.
 #'

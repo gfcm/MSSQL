@@ -33,7 +33,7 @@ of a database table.
 columns.
 
 \code{\link{ncol}} is the base function to return the number of columns for
-objects inside the R workspace.
+data frames inside the R workspace.
 
 \code{\link{dbTools-package}} gives an overview of the package.
 }
