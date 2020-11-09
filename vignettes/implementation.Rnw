@@ -1,0 +1,63 @@
+\documentclass{article}
+%\VignetteIndexEntry{Implementation Notes}
+\usepackage{parskip}
+\newcommand\I[1]{\rule{0pt}{#1}}
+\pagestyle{empty}
+\begin{document}
+
+\title{Implementation Notes}
+\author{Arni Magnusson}
+\maketitle
+\thispagestyle{empty}
+
+The following overview gives an idea (but no promises) of which functions may
+work for databases other than MS SQL Server.
+
+\vspace{6ex}
+
+{\it Browse database}\\[-2ex]
+
+\begin{tabular}{lll}
+  \hline
+  Function       & Gets information from              & Works for    \I{2.2ex}\\
+  \hline
+  \tt dbOverview & {\tt sqlTables()}, {\tt sqlColumns()}
+                   ~ & All RODBC databases\I{2.4ex}\\
+  \tt dbStorage  & \verb|sys.allocation_units|,       & MS SQL Server\I{2.4ex}\\
+                 & {\tt sys.indexes}, {\tt sys.partitions},                   \\
+                 & {\tt sys.schemas}, {\tt sys.tables}                        \\
+  \tt dbTime     & {\tt sys.tables}, {\tt sys.views}  & MS SQL Server\I{2.4ex}\\
+  \hline
+\end{tabular}
+
+\vspace{6ex}
+
+{\it Browse table}\\[-2ex]
+
+\begin{tabular}{lll}
+  \hline
+  Function          & Gets information from & Works for          \I{2.2ex}\\
+  \hline
+  \tt tableDim      & {\tt tableNrow()},
+                      {\tt tableNcol()}     & All RODBC databases\I{2.4ex}\\
+  \tt tableHead     & {\tt sqlQuery()}      & All RODBC databases\I{2.4ex}\\
+  \tt tableNcol     & {\tt sqlColumns()}    & All RODBC databases\I{2.4ex}\\
+  \tt tableNrow     & {\tt sqlQuery()}      & All RODBC databases\I{2.4ex}\\
+  \tt tableOverview & {\tt sqlColumns()},
+                      {\tt tableNrow()}     & All RODBC databases\I{2.4ex}\\
+  \hline
+\end{tabular}
+
+\vspace{6ex}
+
+{\it Helper functions}\\[-2ex]
+
+\begin{tabular}{lll}
+  \hline
+  Function       & Gets information from & Works for          \I{2.2ex}\\
+  \hline
+  \tt tableQuote & (self-contained)      & All RODBC databases\I{2.4ex}\\
+  \hline
+\end{tabular}
+
+\end{document}
