@@ -6,7 +6,7 @@
 \alias{MSSQL}
 \title{Tools to Work with Microsoft SQL Server Databases via RODBC}
 \description{
-Tools that extend the functionality of the RODBC package to work with
+Tools that extend the functionality of the \pkg{RODBC} package to work with
 Microsoft SQL Server databases. Makes it easier to browse the database and
 examine individual tables and views.
 }
@@ -29,6 +29,18 @@ examine individual tables and views.
 \tabular{ll}{
   \code{\link{tableQuote}} \tab Quote table name
 }
+}
+\note{
+\code{browseVignettes()} shows a vignette with implementation notes.
+}
+\seealso{
+This package complements the \pkg{RODBC} package and does not replace the
+standard query methods.
+
+For example, the user may find \code{\link{dbOverview}} and
+\code{\link{tableOverview}} more convenient than the underlying
+\code{\link{sqlTables}} and \code{\link{sqlColumns}}, but to query the
+database \code{sqlQuery} or \code{sqlFetch} are still used in the normal way.
 }
 \author{
 Arni Magnusson.
