@@ -4,12 +4,15 @@
 \alias{tableOverview}
 \title{Data Types and Dimensions}
 \usage{
-tableOverview(channel, sqtable)
+tableOverview(channel, sqtable, max = 1000)
 }
 \arguments{
 \item{channel}{an RODBC connection.}
 
 \item{sqtable}{a database table or view.}
+
+\item{max}{number of rows to analyze the resulting data frame columns in R.
+Pass \code{max = 0} to analyze the entire database table.}
 }
 \value{
 List containing \code{Cols} and \code{Rows}, describing column data types and

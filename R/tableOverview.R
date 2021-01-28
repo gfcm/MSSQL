@@ -4,6 +4,8 @@
 #'
 #' @param channel an RODBC connection.
 #' @param sqtable a database table or view.
+#' @param max number of rows to analyze the resulting data frame columns in R.
+#'        Pass \code{max = 0} to analyze the entire database table.
 #'
 #' @return
 #' List containing \code{Cols} and \code{Rows}, describing column data types and
@@ -33,13 +35,13 @@
 #'
 #' @export
 
-tableOverview <- function(channel, sqtable)
+tableOverview <- function(channel, sqtable, max=1000)
 {
   x <- sqlColumns(channel, sqtable)
   cols <- data.frame(Column=x$COLUMN_NAME, DB=x$TYPE_NAME)
 
   query <- paste("SELECT * FROM", tableQuote(sqtable))
-  y <- sqlQuery(channel, query, max=1, stringsAsFactors=FALSE)
+  y <- sqlQuery(channel, query, max=max, stringsAsFactors=FALSE)
   cols$R <- sapply(y, function(x) class(x)[1])
 
   rows <- tableNrow(channel, sqtable)
