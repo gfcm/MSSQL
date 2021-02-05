@@ -1,5 +1,5 @@
 MSSQL
-=======
+=====
 
 MSSQL provides tools that extend the functionality of the
 [RODBC](https://cran.r-project.org/package=RODBC) package to work with Microsoft
