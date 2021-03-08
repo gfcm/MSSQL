@@ -1,10 +1,10 @@
 Package: MSSQL
 Version: 1.0.0
-Date: 2021-03-04
-Title: Tools to Work with Microsoft SQL Server Databases via RODBC
+Date: 2021-03-08
+Title: Tools to Work with Microsoft SQL Server Databases via 'RODBC'
 Authors@R: c(person("Arni", "Magnusson", role=c("aut","cre"), email="thisisarni@gmail.com"))
 Imports: RODBC
-Description: Tools that extend the functionality of the RODBC package to work
+Description: Tools that extend the functionality of the 'RODBC' package to work
   with Microsoft SQL Server databases. Makes it easier to browse the database
   and examine individual tables and views.
 License: GPL-3
