@@ -39,8 +39,9 @@ standard query methods.
 
 For example, the user may find \code{\link{dbOverview}} and
 \code{\link{tableOverview}} more convenient than the underlying
-\code{\link{sqlTables}} and \code{\link{sqlColumns}}, but to query the
-database \code{sqlQuery} or \code{sqlFetch} are still used in the normal way.
+\code{\link[RODBC]{sqlTables}} and \code{\link[RODBC]{sqlColumns}}, but to
+query the database \code{sqlQuery} or \code{sqlFetch} are still used in the
+normal way.
 }
 \author{
 Arni Magnusson.

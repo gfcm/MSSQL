@@ -11,8 +11,8 @@
 #' \code{\link{tableDim}} and \code{\link{tableNrow}} also return the dimensions
 #' of a database table.
 #'
-#' \code{\link{sqlColumns}} is the underlying function used to examine the table
-#' columns.
+#' \code{\link[RODBC]{sqlColumns}} is the underlying function used to examine
+#' the table columns.
 #'
 #' \code{\link{ncol}} is the base function to return the number of columns for
 #' data frames inside the R workspace.

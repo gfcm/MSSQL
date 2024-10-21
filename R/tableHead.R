@@ -14,8 +14,8 @@
 #' with some example data values.
 #'
 #' @seealso
-#' \code{\link{sqlQuery}} with \code{\link{tableQuote}} are the underlying
-#' functions used to query the table/view.
+#' \code{\link[RODBC]{sqlQuery}} with \code{\link{tableQuote}} are the
+#' underlying functions used to query the table/view.
 #'
 #' \code{\link{head}} is the base function to return the first parts of an
 #' object inside the R workspace.

@@ -32,8 +32,9 @@ tableOverview(con, "sysusers")$Cols
 
 }
 \seealso{
-\code{\link{sqlColumns}}, \code{\link{sqlQuery}}, and \code{\link{tableNrow}}
-are the underlying functions used to examine the table/view.
+\code{\link[RODBC]{sqlColumns}}, \code{\link[RODBC]{sqlQuery}}, and
+\code{\link{tableNrow}} are the underlying functions used to examine the
+table/view.
 
 \code{\link{class}} is the base function to show the class of an object
 inside the R workspace.

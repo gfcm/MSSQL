@@ -45,7 +45,7 @@ dbOverview(con, dim=FALSE, peek=FALSE)
 
 }
 \seealso{
-\code{\link{sqlQuery}} is the underlying function used to query
+\code{\link[RODBC]{sqlQuery}} is the underlying function used to query
 \verb{sys.tables}, \verb{sys.indexes}, \verb{sys.partitions},
 \verb{sys.allocation_units}, and \verb{sys.schemas}.
 

@@ -24,7 +24,7 @@
 #' Based on \url{https://stackoverflow.com/questions/7892334}.
 #'
 #' @seealso
-#' \code{\link{sqlQuery}} is the underlying function used to query
+#' \code{\link[RODBC]{sqlQuery}} is the underlying function used to query
 #' \verb{sys.tables}, \verb{sys.indexes}, \verb{sys.partitions},
 #' \verb{sys.allocation_units}, and \verb{sys.schemas}.
 #'

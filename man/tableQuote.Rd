@@ -27,7 +27,8 @@ tableQuote("schema.table name")
 
 }
 \seealso{
-\code{\link{sqlQuery}} requires special quotes if the table name has spaces.
+\code{\link[RODBC]{sqlQuery}} requires special quotes if the table name has
+spaces.
 
 \code{\link{Quotes}} in base R.
 

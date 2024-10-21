@@ -29,8 +29,8 @@ tableNrow(con, "sysusers")
 \code{\link{tableDim}} and \code{\link{tableNcol}} also return the dimensions
 of a database table.
 
-\code{\link{sqlQuery}} is the underlying function used to examine the table
-rows.
+\code{\link[RODBC]{sqlQuery}} is the underlying function used to examine the
+table rows.
 
 \code{\link{nrow}} is the base function to return the number of rows for data
 frames inside the R workspace.

@@ -27,9 +27,10 @@
 #' \item{First}{first column names.}
 #'
 #' @seealso
-#' \code{\link{sqlTables}} is the underlying function used to get the list of
-#' tables/views, \code{\link{tableDim}} is used to count rows and columns, and
-#' \code{\link{sqlColumns}} is used to peek at the first column names.
+#' \code{\link[RODBC]{sqlTables}} is the underlying function used to get the
+#' list of tables/views, \code{\link{tableDim}} is used to count rows and
+#' columns, and \code{\link[RODBC]{sqlColumns}} is used to peek at the first
+#' column names.
 #'
 #' \code{\link{dbStorage}} shows the storage size of tables and
 #' \code{\link{dbTime}} shows the time when tables/views were created and last

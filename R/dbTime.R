@@ -14,7 +14,7 @@
 #' \item{Modified}{time last modified.}
 #'
 #' @seealso
-#' \code{\link{sqlQuery}} is the underlying function used to query
+#' \code{\link[RODBC]{sqlQuery}} is the underlying function used to query
 #' \verb{sys.tables} and \verb{sys.views}.
 #'
 #' \code{\link{dbOverview}} shows the dimensions of tables/views and the first
