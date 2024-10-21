@@ -1,5 +1,3 @@
-#' @docType package
-#'
 #' @name MSSQL-package
 #'
 #' @aliases MSSQL
@@ -45,4 +43,4 @@
 #'
 #' @author Arni Magnusson.
 
-NA
+"_PACKAGE"
