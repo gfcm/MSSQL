@@ -1,6 +1,6 @@
-# MSSQL 1.0-1 (2024-10-21)
+# MSSQL 1.0-1 (2024-10-22)
 
-* Maintenance release.
+* Maintenance release, no user-visible changes.
 
 
 
